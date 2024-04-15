@@ -108,8 +108,6 @@ font-style: normal;
 }
 
 .origin-section {
-	width: 1440px;
-		height: 600px;
 	background: #2e2f42;
 }
 
@@ -121,6 +119,21 @@ font-style: normal;
 	text-align: center;
 	color: #ffffff;
 }
+
+.subtitle-text {
+ 	color: #434455;
+ 	font-size: 16px;
+ 	letter-spacing: 0.02em;
+ }
+
+ .our-team-section {
+	text-align: center;
+	background: #f4f4fd;
+ }
+
+ .team-description {
+	background-color: #ffffff;
+ }
 
 /* FOOTER */
 
@@ -135,11 +148,11 @@ font-style: normal;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #f4f4fd;
+	color: #4d5ae5;
 }
 
-.page-footer-logo-option {
-	color: #4d5ae5;
+ footer .page-footer-logo-option {
+	color: #f4f4fd;
 }
 
 .page-footer-text {
