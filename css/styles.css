@@ -121,14 +121,23 @@ font-style: normal;
 }
 
 .subtitle-text {
- 	color: #434455;
- 	font-size: 16px;
+ 	color: #2e2f42;
+ 	font-size: 20px;
+	line-height: 1.2;
  	letter-spacing: 0.02em;
+ }
+
+ .subtitle-text-paragraph {
+	letter-spacing: 0.02em;
  }
 
  .our-team-section {
 	text-align: center;
 	background: #f4f4fd;
+ }
+
+ .text-team {
+	letter-spacing: 0.02em;
  }
 
  .team-description {
