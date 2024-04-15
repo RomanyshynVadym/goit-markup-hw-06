@@ -13,7 +13,7 @@ button {
 body {
 		font-family: "Roboto", sans-serif;
 		background: #ffffff;
-		color: #2e2f42;
+		color: ;#434455
 }
 
 /* HEADER */
@@ -25,10 +25,11 @@ body {
 		line-height: 1.17;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
+		color: #4d5ae5;
 }
 
 .page-logo-option {
-		color: #4d5ae5;
+		color: #2e2f42;
 }
 
 .menu-link {
@@ -39,11 +40,20 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.menu-link:hover, :focus {
+.menu-link:hover,
+.menu-link:focus {
 	color: #404bbf;
 }
 
 /* CONTACTS */
+
+.address-link-header {
+	font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+}
 
 .link-header {
 	font-weight: 400;
