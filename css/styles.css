@@ -33,7 +33,19 @@ h3 {
 	color: #2e2f42;
 }
 
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
 /* HEADER */
+
+.container {
+	width: 1158px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+}
 
 .page-nav .menu-link {
 		font-weight: 500;
@@ -60,6 +72,11 @@ h3 {
 		color: #2e2f42;
 }
 
+.menu {
+	display: flex;
+	gap: 40px;
+}
+
 .menu-link {
 
 font-weight: 500;
@@ -72,6 +89,12 @@ letter-spacing: 0.02em;
 
 .address-link-header {
 font-style: normal;
+}
+
+.address-menu {
+	display: flex;
+	gap: 40px;
+	justify-content: flex-end;
 }
 
 /* .link-header {
@@ -120,6 +143,14 @@ font-style: normal;
 	color: #ffffff;
 }
 
+/* ============= BENEFITS ============== */
+
+.benefits-list {
+	display: flex;
+	gap: 24px;
+	padding: 0;
+}
+
 .subtitle-text {
  	color: #2e2f42;
  	font-size: 20px;
@@ -131,6 +162,8 @@ font-style: normal;
 	letter-spacing: 0.02em;
  }
 
+ /* ============= REVIEWS ============== */
+
  .our-team-section {
 	text-align: center;
 	background: #f4f4fd;
@@ -141,7 +174,26 @@ font-style: normal;
  }
 
  .team-description {
+	display: flex;
+	gap: 24px;
+	padding: 0;
+ }
+
+ .team-description-item {
 	background-color: #ffffff;
+ }
+
+ /* ========== APPLICATIONS =========  */
+
+ .portfolio-app {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	gap: 24px;
+ }
+
+ .portfolio-margin {
+	margin-bottom: 48px;
  }
 
 /* FOOTER */
