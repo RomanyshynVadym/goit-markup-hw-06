@@ -1,9 +1,6 @@
-body {
-	font-family: "Roboto", sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	color: #434455;
-	background-color: #ffffff;
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 a {
@@ -11,7 +8,10 @@ a {
 }
 
 
-ul {
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
 	list-style-type: none;
 }
 
@@ -33,18 +33,47 @@ h3 {
 	color: #2e2f42;
 }
 
+img {
+	display: block;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #434455;
+	background-color: #ffffff;
+}
+
 .section {
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
 
-/* HEADER */
-
 .container {
 	width: 1158px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* HEADER */
+
+.header-container {
+	display: flex;
+	width: 1158px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-nav {
+	display: flex;
+	align-items: center;
 }
 
 .page-nav .menu-link {
@@ -75,14 +104,17 @@ h3 {
 .menu {
 	display: flex;
 	gap: 40px;
+	padding-left: 76px;
 }
 
 .menu-link {
-
+display: block;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 /* CONTACTS */
@@ -94,7 +126,6 @@ font-style: normal;
 .address-menu {
 	display: flex;
 	gap: 40px;
-	justify-content: flex-end;
 }
 
 /* .link-header {
@@ -121,8 +152,11 @@ font-style: normal;
 	letter-spacing: 0.04em;
 	color: #ffffff;
 	line-height: 1.5;
+	border: none;
 	background: #4d5ae5;
 	cursor: pointer;
+	padding: 16px 32px;
+	margin: 0 163px;
 }
 
 .btn:hover,
@@ -130,8 +164,20 @@ font-style: normal;
 	background-color: #404bbf;
 }
 
-.origin-section {
+.hero {
 	background: #2e2f42;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hero-container {
+	padding-top: 188px;
+	padding-bottom: 292px;
+	max-width: 496px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
 }
 
 .main-title {
@@ -141,6 +187,7 @@ font-style: normal;
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: #ffffff;
+	margin-bottom: 48px;
 }
 
 /* ============= BENEFITS ============== */
@@ -189,11 +236,7 @@ font-style: normal;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0;
-	gap: 24px;
- }
-
- .portfolio-margin {
-	margin-bottom: 48px;
+	gap: 48px 24px;
  }
 
 /* FOOTER */
