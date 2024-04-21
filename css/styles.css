@@ -69,6 +69,7 @@ body {
 	padding-right: 15px;
 	justify-content: space-between;
 	align-items: center;
+	border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
@@ -95,6 +96,7 @@ body {
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 		color: #4d5ae5;
+		margin-right: 76px;
 }
 
 .page-logo-option {
@@ -104,7 +106,6 @@ body {
 .menu {
 	display: flex;
 	gap: 40px;
-	padding-left: 76px;
 }
 
 .menu-link {
@@ -148,6 +149,10 @@ font-style: normal;
 /* HERO */
 
 .btn {
+	display: block;
+	min-width: 169px;
+	height: 56px;
+	border-radius: 4px;
 	font-weight: 500;
 	letter-spacing: 0.04em;
 	color: #ffffff;
@@ -183,6 +188,7 @@ font-style: normal;
 .main-title {
 	font-weight: 700;
 	font-size: 56px;
+	max-width: 496px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	text-align: center;
@@ -243,6 +249,20 @@ font-style: normal;
 
 .page-footer {
 		background: #2e2f42;
+}
+
+.footer-container {
+	width: 1158px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.footer-container-elements {
+	width: 264px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .page-footer-logo {
