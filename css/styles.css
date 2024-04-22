@@ -111,7 +111,7 @@ body {
 	color: #404bbf;
 }
 
-.page-logo {
+.logo {
 		font-family: "Raleway", sans-serif;
 		font-weight: 700;
 		font-size: 18px;
@@ -122,7 +122,7 @@ body {
 		margin-right: 76px;
 }
 
-.page-logo-option {
+.logo-span {
 		color: #2e2f42;
 }
 
@@ -238,51 +238,39 @@ font-style: normal;
 
  /* ========== APPLICATIONS =========  */
 
- .portfolio-app {
-	display: flex;
+ .portfolio-list {
 	flex-wrap: wrap;
-	padding: 0;
-	gap: 48px 24px;
- }
+	row-gap: 48px;
+}
+
+.portfolio-card {
+	flex-basis: ((100% - 48px) / 3);
+}
+
+.portfolio-card .card-description {
+	padding: 32px 16px;
+	border: 1px solid #E7E9FC;
+	border-top: none;
+}
 
 /* FOOTER */
 
-.page-footer {
-		background: #2e2f42;
+.footer {
+	background: #2e2f42;
+	padding: 100px 0;
 }
 
-.footer-container {
-	width: 1158px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-.footer-container-elements {
-	width: 264px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-
-.page-footer-logo {
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: #4d5ae5;
-}
-
- footer .page-footer-logo-option {
+.footer-text  {
 	color: #f4f4fd;
+	letter-spacing: 0.02em;
+	max-width: 264px;
 }
 
-.page-footer-text {
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
-		color: #f4f4fd;
+.footer .logo-span {
+	color: #F4F4FD;
+}
+
+.footer .logo {
+	display: inline-block;
+	margin-bottom: 16px;
 }
