@@ -96,6 +96,7 @@ body {
 
 .page-nav {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -112,18 +113,21 @@ body {
 }
 
 .logo {
-		font-family: "Raleway", sans-serif;
-		font-weight: 700;
-		font-size: 18px;
-		line-height: 1.17;
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
-		color: #4d5ae5;
-		margin-right: 76px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4d5ae5;
+}
+
+.header-section .logo {
+	margin-right: 76px;
 }
 
 .logo-span {
-		color: #2e2f42;
+	color: #2E2F42;
 }
 
 .menu {
@@ -161,23 +165,40 @@ font-style: normal;
 /* HERO */
 
 .welcome-section {
-	background: #2e2f42;
-	padding: 188px 0;
+  background-color: #2e2f42;
+  height: 600px;
+  padding: 188px 0;
 }
 
 .page-title {
-	font-family: "Roboto", sans-serif;
-	font-weight: 700;
-	font-size: 56px;
-	line-height: 1.07;
-	letter-spacing: 0.02em;
-	color: #ffffff;
-	max-width: 496px;
-	margin-bottom: 48px;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .btn {
-	display: block;
+
+	background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  display: block;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+
+	/* display: block;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	letter-spacing: 0.04em;
@@ -188,7 +209,7 @@ font-style: normal;
 	border-radius: 4px;
 	border: none;
 	height: 56px;
-	min-width: 169px;
+	min-width: 169px; */
 }
 
 .btn:hover,
