@@ -267,6 +267,11 @@ align-items: center;
 	padding: 32px 0;
 }
 
+.social-app {
+	display: flex;
+	
+}
+
  /* ========== APPLICATIONS =========  */
 
  .portfolio-list {
