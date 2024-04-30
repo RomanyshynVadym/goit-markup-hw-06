@@ -247,7 +247,7 @@ align-items: center;
 	gap: 24px;
 }
 
-.section-list li {
+.section-list li.section-list-item {
 	flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -269,7 +269,24 @@ align-items: center;
 
 .social-app {
 	display: flex;
-	
+	justify-content: center;
+	align-items: center;
+	column-gap: 24px;
+}
+
+.social-app-icons {
+	display: flex;
+	width: 40px;
+	height: 40px;
+
+}
+
+.svg-social-app {
+	width: 40px;
+	height: 40px;
+}
+.section-text-our-team {
+margin-bottom: 8px;
 }
 
  /* ========== APPLICATIONS =========  */
