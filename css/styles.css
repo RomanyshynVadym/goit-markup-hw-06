@@ -201,59 +201,6 @@ body {
 	color: #404bbf;
 }
 
-/* .header-section .container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-} 
-
-.page-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.page-nav .menu-link {
-	padding: 24px 0;
-	font-weight: 500;
-	color: #2e2f42;
-	letter-spacing: 0.02em;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-	color: #404bbf;
-}
-
-.logo {
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: #4d5ae5;
-}
-
-.header-section .logo {
-	margin-right: 76px;
-}
-
-.logo-span {
-	color: #2E2F42;
-}
-
-.menu {
-	display: flex;
-	gap: 40px;
-}
-
-.menu-link {
-display: block;
-padding-top: 24px;
-padding-bottom: 24px;
-} */
-
 /* CONTACTS */
 
 .address-link-header {
@@ -289,6 +236,7 @@ font-style: normal;
 			background-size: cover;
 			box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 			max-width: 1440px;
+			margin: 0 auto;
 }
 
 .page-title {
@@ -366,7 +314,7 @@ font-style: normal;
 	gap: 24px;
 }
 
-.section-list li.section-list-item {
+.benefits-icons li.benefits-icons-item {
 	flex-basis: calc((100% - 72px) / 4);
 }
 
