@@ -597,7 +597,7 @@ margin-bottom: 8px;
 		letter-spacing: 0.02em;
 		text-align: center;
 		color: #2e2f42;
-		margin-bottom: 28px;
+		margin-bottom: 16px;
 }
 
 .contact-form-field-wrapper {
@@ -668,4 +668,8 @@ margin-bottom: 8px;
 
 .contact-form-input:focus + .contact-form-field-icon {
 	fill: #4d5ae5;
+}
+
+.contact-form-checkbox-wrapper {
+	margin-bottom: 16px;
 }
