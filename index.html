@@ -439,7 +439,11 @@
 				<div class="contact-form-field-wrapper">
 					<label class="contact-form-field-label" for="user-first-name">Name</label>
 					<div class="contact-form-input-wrapper">
-						<input class="contact-form-input" type="text" id="user-first-name" name="user-first-name"
+						<input 
+						class="contact-form-input" 
+						type="text" 
+						id="user-first-name" 
+						name="user-first-name"
 						pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
 						title="Vadym" 
 						required>
@@ -450,6 +454,7 @@
 				</div>
 				<div class="contact-form-field-wrapper">
 					<label class="contact-form-field-label" for="user-tel">Phone</label>
+					<div class="contact-form-input-wrapper">
 					<input 
 					type="tel"
 					class="contact-form-input"
@@ -459,15 +464,24 @@
 					title="xxx-xxx-xx-xx"
 					required
 					>
+						<svg class="contact-form-field-icon" width="12" height="12">
+							<use href="./images/icons.svg#icon-phone"></use>
+						</svg>
+				</div>
 				</div>
 				<div class="contact-form-field-wrapper">
 					<label class="contact-form-field-label" for="user-email">Email</label>
+					<div class="contact-form-input-wrapper">
 					<input 
 					type="email"
 					class="contact-form-input"
 					id="user-email"
 					name="user-email"
 					required>
+					<svg class="contact-form-field-icon" width="12" height="12">
+						<use href="./images/icons.svg#icon-email"></use>
+					</svg>
+					</div>
 				</div>
 				<div class="contact-form-field-wrapper">
 					<label class="contact-form-field-label" for="user-comment">Comment</label>
