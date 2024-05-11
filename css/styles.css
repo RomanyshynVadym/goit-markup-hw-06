@@ -533,10 +533,11 @@ margin-bottom: 8px;
 }
 
 .footer-contact-form-message {
-	border: 1px solid #fff;
+	border: 1px solid #ffffff;
 		border-radius: 4px;
 		width: 264px;
 		height: 40px;
+		background-color: transparent;
 
 	background: #2e2f42;
 		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -544,7 +545,21 @@ margin-bottom: 8px;
 			font-size: 12px;
 			line-height: 2;
 			letter-spacing: 0.04em;
-			color: #fff;
+			padding-left: 16px;
+			color: #ffffff;
+}
+
+.footer-contact-form-message::placeholder {
+	color: #ffffff;
+}
+
+.footer-btn-message {
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.04em;
+		text-align: center;
+		color: #ffffff;
 }
 
 /* =========== BACKDROP STYLES ============= */
