@@ -518,6 +518,35 @@ margin-bottom: 8px;
   fill: #f4f4fd;
 }
 
+.footer-email-text {
+	margin-bottom: 16px;
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #ffffff;
+}
+
+.footer-form {
+	display: flex;
+	gap: 24px;
+}
+
+.footer-contact-form-message {
+	border: 1px solid #fff;
+		border-radius: 4px;
+		width: 264px;
+		height: 40px;
+
+	background: #2e2f42;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+			font-size: 12px;
+			line-height: 2;
+			letter-spacing: 0.04em;
+			color: #fff;
+}
+
 /* =========== BACKDROP STYLES ============= */
 
 .backdrop {
