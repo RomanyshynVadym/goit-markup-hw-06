@@ -518,6 +518,10 @@ margin-bottom: 8px;
   fill: #f4f4fd;
 }
 
+.footer-email-box {
+	padding-left: 80px;
+}
+
 .footer-email-text {
 	margin-bottom: 16px;
 	font-weight: 500;
@@ -538,8 +542,6 @@ margin-bottom: 8px;
 		width: 264px;
 		height: 40px;
 		background-color: transparent;
-
-	background: #2e2f42;
 		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 			font-size: 12px;
@@ -560,6 +562,20 @@ margin-bottom: 8px;
 		letter-spacing: 0.04em;
 		text-align: center;
 		color: #ffffff;
+		min-width: 165px;
+		height: 40px;
+		cursor: pointer;
+		background-color: #4d5ae5;
+		border: none;
+		border-radius: 4px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+.footer-message-icon {
+	margin-left: 16px;
 }
 
 /* =========== BACKDROP STYLES ============= */
