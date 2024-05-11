@@ -640,6 +640,7 @@ margin-bottom: 8px;
 		height: 120px;
 		resize: none;
 		padding: 8px 16px;
+		color: rgba(46, 47, 66, 0.4);
 		font-size: 12px;
 		line-height: 1.17;
 		letter-spacing: 0.04em;
@@ -671,15 +672,35 @@ margin-bottom: 8px;
 }
 
 .contact-form-checkbox-wrapper {
-	margin-bottom: 16px;
+	margin-bottom: 24px;
 }
 
 .contact-form-checkbox-label {
 	font-weight: 400;
 		font-size: 12px;
-		line-height: 1.16667;
+		line-height: 1.17;
 		letter-spacing: 0.04em;
 		color: #8e8f99;
+}
+
+.contact-form-own-checkbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+	cursor: pointer;
+	border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.contact-form-own-checkbox-icon {
+
+}
+
+.contact-form-checkbox:checked + .contact-form-checkbox-label .contact-form-own-checkbox {
+background-color: #404bbf;
+border: 1px solid #404bbf;
 }
 
 .privacy-policy-link {
