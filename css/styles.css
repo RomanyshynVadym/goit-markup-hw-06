@@ -601,7 +601,7 @@ margin-bottom: 8px;
 }
 
 .contact-form-field-wrapper {
-	margin-bottom: 8px;
+	margin-bottom: 16px;
 }
 
 .contact-form-field-label {
@@ -673,10 +673,61 @@ margin-bottom: 8px;
 
 .contact-form-checkbox-wrapper {
 	margin-bottom: 24px;
+	position: relative;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.visually-hidden:checked .contact-form-own-checkbox {
+	background-color: #404bbf;
+	border: none;
+	fill: #f4f4fd;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.visually-hidden:checked + label > span {
+	background-color: #404bbf;
+	border: none;
+	fill: #f4f4fd;
 }
 
 .contact-form-checkbox-label {
-	font-weight: 400;
 		font-size: 12px;
 		line-height: 1.17;
 		letter-spacing: 0.04em;
@@ -684,14 +735,17 @@ margin-bottom: 8px;
 }
 
 .contact-form-own-checkbox {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+		display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			fill: transparent;
+border-radius: 2px;
+	border: 1px solid rgba(46, 47, 66, 0.4);
 	width: 16px;
 	height: 16px;
-	border-radius: 2px;
-	cursor: pointer;
-	border: 1px solid rgba(46, 47, 66, 0.4);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-own-checkbox-icon {
@@ -704,7 +758,7 @@ border: 1px solid #404bbf;
 }
 
 .privacy-policy-link {
-	line-height: 1.33333;
+	line-height: 1.33;
 		text-decoration: underline;
 		text-decoration-skip-ink: none;
 		color: #4d5ae5;
@@ -716,6 +770,7 @@ border: 1px solid #404bbf;
 			font-size: 16px;
 			line-height: 1.5;
 			letter-spacing: 0.04em;
+			text-align: center;
 			color: #ffffff;
 			cursor: pointer;
 			border: none;
@@ -728,4 +783,8 @@ border: 1px solid #404bbf;
 			min-width: 169px;
 			height: 56px;
 			margin: 0 auto;
+}
+
+.contact-form-submit:hover {
+	background-color: #404bbf;
 }
