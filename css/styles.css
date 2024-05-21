@@ -136,12 +136,13 @@ a {
 	color: #2E2F42;
 }
 
-.nav.list {
+.nav-list {
 	display: flex;
 	gap: 40px;
 }
 
 @media (max-width: 767px) {
+
 	.nav-list,
 	.address {
 		display: none;
@@ -179,6 +180,7 @@ a {
 	background-color: #404BBF;
 	border-radius: 2px;
 }
+
 
 .address {
 	font-style: normal
@@ -221,6 +223,8 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* width: 24px;
+    height: 24px; */
 
 	border: none;
 	background: none;
